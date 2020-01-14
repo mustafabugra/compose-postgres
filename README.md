@@ -19,6 +19,8 @@ This Compose file contains the following environment variables:
 * `PGADMIN_PORT` the default value is **5050**
 * `PGADMIN_DEFAULT_EMAIL` the default value is **pgadmin4@pgadmin.org**
 * `PGADMIN_DEFAULT_PASSWORD` the default value is **admin**
+* `PGADMIN_LISTEN_ADDRESS` the default value is **0.0.0.0** (useful for ipv6 disabled systems)
+* `PGADMIN_CONFIG_CONSOLE_LOG_LEVEL` the default value is **10**
 
 ## Access to postgres: 
 * `localhost:5432`
